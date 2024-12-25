@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #6534aa;
+    color: #0d0d0e;
+    line-height: 1.6;
+}
+
+/* Header & Navbar */
+header {
+    background: #333;
+    color: rgb(44, 33, 9);
+    padding: 10px 0;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+header nav ul li {
+    margin: 0 17px;
+}
+
+header nav ul li a {
+    color: rgb(155, 72, 72);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+
+header nav ul li a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.5em;
+}
+
+/* Tour Packages Section */
+.packages {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.packages h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.package-card {
+    display: inline-block;
+    width: 100%;
+    margin: 15px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.package-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.package-card h3 {
+    margin-top: 15px;
+    font-size: 1.5em;
+}
+
+.package-card p {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+.package-card a {
+    display: block;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.package-card a:hover {
+    background-color: #575757;
+}
+
+/* Booking Section */
+.booking {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.booking h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.booking form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.booking label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 1.1em;
+}
+
+.booking input, .booking select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.booking button {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.booking button:hover {
+    background-color: #575757;
+}
+
+/* Travel Tips Section */
+.tips {
+    background-color: #f4f4f4;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.tips h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.tips ul {
+    list-style-type: none;
+}
+
+.tips ul li {
+    font-size: 1.2em;
+    margin: 15px 0;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: rgb(48, 14, 14);
+    text-align: center;
+    padding: 20px 0;
+}

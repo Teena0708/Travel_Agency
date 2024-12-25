@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Travel Agency</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#packages">Tour Packages</a></li>
+                <li><a href="#booking">Book Now</a></li>
+                <li><a href="#tips">Travel Tips</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h1><i>The world is waiting</i></h1>
+        <p>Explore the world with our custom tour packages.</p>
+    </section>
+
+    <!-- Tour Packages -->
+    <section id="packages" class="packages">
+        <h2>Tour Packages</h2>
+        <div class="package-card">
+            <img src="./paris.jpg" alt="Tour Package 1">
+            <h3>Paris - The City of Lights</h3>
+            <p>5 Days | Price: $1200</p>
+            <a href="#booking">Book Now</a>
+        </div>
+        <div class="package-card">
+            <img src="./tokya.jpg" alt="Tour Package 2">
+            <h3>Tokyo - A Blend of Tradition & Modernity</h3>
+            <p>7 Days | Price: $1500</p>
+            <a href="#booking">Book Now</a>
+        </div>
+        <div class="package-card">
+            <img src="./rome.jpg" alt="Tour Package 3">
+            <h3>Rome - The Eternal City</h3>
+            <p>6 Days | Price: $1300</p>
+            <a href="#booking">Book Now</a>
+        </div>
+    </section>
+
+    <!-- Booking Form -->
+    <section id="booking" class="booking">
+        <h2>Book Your Trip</h2>
+        <form action="#" method="post">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="tour">Choose Tour Package:</label>
+            <select id="tour" name="tour">
+                <option value="paris">Paris - The City of Lights</option>
+                <option value="tokyo">Tokyo - A Blend of Tradition & Modernity</option>
+                <option value="rome">Rome - The Eternal City</option>
+            </select>
+
+            <label for="date">Preferred Travel Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <button type="submit">Submit Booking</button>
+        </form>
+    </section>
+
+    <!-- Travel Tips -->
+    <section id="tips" class="tips">
+        <h2>Travel Tips</h2>
+        <ul>
+            <li><strong>Get a SiM Card with internet access :</strong>Be it for accessing Google maps or booking tasks and oredring food online, a local SIM Card is the best solution for nonstop internet access.</li>
+            <li><strong>Pack Light:</strong>We don't have stress over packing, even for a long India trips. </li>
+            <li><strong>Stay Safe:</strong> Keep your valuables in a safe and be aware of your surroundings.</li>
+            <li><strong>Book in Advance:</strong> Book flights and accommodation early to get the best deals.</li>
+            <li><strong>Beaware of Tourists scams:</strong> Always opt for travel insurance for peace of mind.</li>
+            <li><strong>Keep a mask while travelling:</strong>Wearing a face mask protect you from viruses.</li>
+            <li><strong>Practice good hygiene :</strong>Undertake appropriate hand and respiratory hygiene, and physically distance from others while travelling</li>
+        </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Travel Agency | All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
